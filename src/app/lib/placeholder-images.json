@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "prof-1",
+      "description": "Professional Tutor",
+      "imageUrl": "https://picsum.photos/seed/prof1/400/400",
+      "imageHint": "teacher tutor"
+    },
+    {
+      "id": "prof-2",
+      "description": "Professional Mechanic",
+      "imageUrl": "https://picsum.photos/seed/prof2/400/400",
+      "imageHint": "mechanic engineer"
+    },
+    {
+      "id": "prof-3",
+      "description": "Professional Plumber",
+      "imageUrl": "https://picsum.photos/seed/prof3/400/400",
+      "imageHint": "plumber repair"
+    },
+    {
+      "id": "prof-4",
+      "description": "Professional Accountant",
+      "imageUrl": "https://picsum.photos/seed/prof4/400/400",
+      "imageHint": "accountant professional"
+    },
+    {
+      "id": "prof-5",
+      "description": "Professional Cook",
+      "imageUrl": "https://picsum.photos/seed/prof5/400/400",
+      "imageHint": "chef cooking"
+    }
+  ]
+}
