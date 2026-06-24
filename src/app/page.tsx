@@ -25,7 +25,7 @@ export default function AuthPage() {
       </div>
 
       {/* Main Auth Toggle */}
-      <div className="w-full max-w-sm bg-white rounded-full p-1 shadow-sm border border-slate-100 flex items-center mb-8">
+      <div className="w-full max-w-sm bg-white rounded-full p-1 shadow-sm border border-slate-200 flex items-center mb-8">
         <button
           onClick={() => setActiveTab('login')}
           className={`flex-1 py-3 rounded-full text-xs font-bold transition-all ${
@@ -70,7 +70,7 @@ export default function AuthPage() {
                 <Input
                   type="email"
                   placeholder="name@example.com"
-                  className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                  className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                 />
               </div>
 
@@ -84,7 +84,7 @@ export default function AuthPage() {
                 <Input
                   type="password"
                   placeholder="••••••••"
-                  className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                  className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                 />
               </div>
 
@@ -109,7 +109,7 @@ export default function AuthPage() {
                   className={`py-3 rounded-2xl text-[11px] font-black uppercase tracking-widest border-2 transition-all ${
                     protocol === 'client'
                       ? 'border-primary text-primary bg-primary/5'
-                      : 'border-slate-50 text-[#cbd5e1] bg-slate-50/50'
+                      : 'border-slate-200 text-[#cbd5e1] bg-slate-50/50'
                   }`}
                 >
                   Client
@@ -119,7 +119,7 @@ export default function AuthPage() {
                   className={`py-3 rounded-2xl text-[11px] font-black uppercase tracking-widest border-2 transition-all ${
                     protocol === 'provider'
                       ? 'border-primary text-primary bg-primary/5'
-                      : 'border-slate-50 text-[#cbd5e1] bg-slate-50/50'
+                      : 'border-slate-200 text-[#cbd5e1] bg-slate-50/50'
                   }`}
                 >
                   Provider
@@ -129,7 +129,7 @@ export default function AuthPage() {
 
             {/* Profile Picture Placeholder */}
             <div className="flex justify-center mb-8 relative">
-              <div className="w-24 h-24 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-200">
+              <div className="w-24 h-24 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-200">
                 <User size={40} strokeWidth={1} />
               </div>
               <button className="absolute bottom-0 right-[35%] w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white border-4 border-white shadow-sm hover:scale-105 transition-transform">
@@ -145,7 +145,7 @@ export default function AuthPage() {
                 </Label>
                 <Input
                   placeholder="John Doe"
-                  className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                  className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                 />
               </div>
 
@@ -157,21 +157,21 @@ export default function AuthPage() {
                   <Input
                     type="number"
                     placeholder="25"
-                    className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                    className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                   />
                 </div>
                 <div className="space-y-1.5">
                   <Label className="text-[9px] font-bold text-[#94a3b8] uppercase tracking-wider ml-1">
                     Gender
                   </Label>
-                  <div className="h-14 bg-[#f8fafc] border border-slate-200 rounded-2xl flex items-center px-4">
+                  <div className="h-14 bg-[#f8fafc] border border-slate-300 rounded-2xl flex items-center px-4">
                     <RadioGroup defaultValue="m" className="flex gap-4">
                       <div className="flex items-center space-x-2">
-                        <RadioGroupItem value="m" id="m" className="text-primary border-slate-300" />
+                        <RadioGroupItem value="m" id="m" className="text-primary border-slate-400" />
                         <Label htmlFor="m" className="text-[11px] font-black text-slate-600">M</Label>
                       </div>
                       <div className="flex items-center space-x-2">
-                        <RadioGroupItem value="f" id="f" className="text-primary border-slate-300" />
+                        <RadioGroupItem value="f" id="f" className="text-primary border-slate-400" />
                         <Label htmlFor="f" className="text-[11px] font-black text-slate-600">F</Label>
                       </div>
                     </RadioGroup>
@@ -186,7 +186,7 @@ export default function AuthPage() {
                 <Input
                   type="email"
                   placeholder="email@address.com"
-                  className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                  className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                 />
               </div>
 
@@ -197,7 +197,7 @@ export default function AuthPage() {
                 <Input
                   type="password"
                   placeholder="Min. 6 characters"
-                  className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                  className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                 />
               </div>
 
@@ -207,10 +207,10 @@ export default function AuthPage() {
                     Phone
                   </Label>
                   <div className="relative">
-                    <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-[#cbd5e1]" size={14} />
+                    <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-[#94a3b8]" size={14} />
                     <Input
                       placeholder="10 Digits"
-                      className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl pl-10 pr-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                      className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl pl-10 pr-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                     />
                   </div>
                 </div>
@@ -219,10 +219,10 @@ export default function AuthPage() {
                     Pin Code
                   </Label>
                   <div className="relative">
-                    <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 text-[#cbd5e1]" size={14} />
+                    <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 text-[#94a3b8]" size={14} />
                     <Input
                       placeholder="6 Digits"
-                      className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl pl-10 pr-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                      className="bg-[#f8fafc] border border-slate-300 h-14 rounded-2xl pl-10 pr-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
                     />
                   </div>
                 </div>
