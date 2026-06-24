@@ -67,7 +67,7 @@ export default function LoginPage() {
               <Input
                 type="email"
                 placeholder="name@example.com"
-                className="bg-[#f8fafc] border-none h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
               />
             </div>
 
@@ -81,7 +81,7 @@ export default function LoginPage() {
               <Input
                 type="password"
                 placeholder="••••••••"
-                className="bg-[#f8fafc] border-none h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
+                className="bg-[#f8fafc] border border-slate-200 h-14 rounded-2xl px-5 text-slate-600 placeholder:text-slate-300 focus-visible:ring-primary/20"
               />
             </div>
 
